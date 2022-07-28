@@ -158,3 +158,14 @@ figcaption{
     color: white;
     font-size: 18px;
 }
+
+.call-sign-up
+button{
+    color: white;
+    background-color: #3882F6;
+    border-color:#E5E7EB;
+    text-align: center;
+    border-radius: 6px;
+    padding: 6px;
+    width: 100px;
+}
