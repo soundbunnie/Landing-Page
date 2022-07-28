@@ -112,3 +112,20 @@ figcaption{
     flex-wrap: wrap;
     color: #1F2937;
 }
+
+.quote-section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 82px;
+    background: #E5E7EB;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    width: 43%;
+    color: #1F2937
+}
