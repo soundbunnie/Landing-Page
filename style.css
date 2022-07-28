@@ -27,6 +27,15 @@ ul {
     gap: 16px;
 }
 
+.header-main{
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    margin-top: 110px;
+    margin-left: 340px;
+    gap: 6px;
+}
+
 .header-title {
     font-size: 48px;
     font-weight: 900;
@@ -39,6 +48,10 @@ ul {
     color: #E5E7EB;
 }
 
+.header-sign-up{
+    flex-shrink: 0;
+}
+
 .header-sign-up
 button{
     background-color: #3882F6;
@@ -47,7 +60,12 @@ button{
     text-align: center;
     border-radius: 6px;
     padding: 6px;
-    width: 5%;
+    width: 100px;
+}
+
+.header-image{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .header-image
