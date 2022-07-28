@@ -10,6 +10,8 @@ body{
 }
 
 .header {
+    display: flex;
+    flex-direction: column;
     background: #1F2937;
 }
 
@@ -39,11 +41,21 @@ ul {
 
 .header-main{
     display: flex;
-    flex-direction: column;
-    width: 410px;
     margin-top: 110px;
     margin-left: 340px;
+    margin-bottom: 100px;
+}
+
+.header-left{
+    display: flex;
+    width: 410px;
+    flex-direction: column;
     gap: 6px;
+}
+
+.header-right{
+    display: flex;
+    margin-left: 330px;
 }
 
 .header-title {
@@ -67,11 +79,6 @@ button{
     border-radius: 6px;
     padding: 6px;
     width: 100px;
-}
-
-.header-image{
-    display: flex;
-    justify-content: flex-end;
 }
 
 .header-image
