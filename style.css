@@ -115,10 +115,11 @@ figcaption{
 
 .quote-section{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    padding: 82px;
+    padding: 94px;
     background: #E5E7EB;
 }
 
@@ -128,4 +129,11 @@ figcaption{
     font-style: italic;
     width: 43%;
     color: #1F2937
+}
+
+.quote-sig{
+    font-weight: bold;
+    font-size: 22px;
+    align-self: flex-end;
+    margin-right: 36px;
 }
