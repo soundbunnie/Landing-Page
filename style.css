@@ -76,3 +76,9 @@ img{
     height: 250px;
     width: 500px;
 }
+
+.info-header-text{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
